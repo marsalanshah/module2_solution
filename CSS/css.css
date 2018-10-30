@@ -1,0 +1,277 @@
+/********For Desktoap*********/
+
+@media (min-width: 992px){
+
+* {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}	
+
+
+div {
+	background-color: blue;
+}	
+
+h1 { 
+
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 80px;
+
+    }
+h2 {
+	color: black;
+	width: 40%;
+	height: 40%;
+	border: 1px solid black;
+	text-align: center;
+
+}    
+
+#h2_1 {
+	background-color: #A00BC8;
+	position: relative;
+			
+			top: -16px;
+			left: 64%;
+
+
+		}
+
+#h2_2 {
+	background-color: red;
+	position: relative;
+			top: -16px;
+			left: 64%;
+    } 
+
+#h2_3 {
+	background-color: blue;
+	position: relative;
+			top: -16px;
+			left: 64%;
+		}
+
+
+}	 
+
+#s1 {
+    position: relative;
+    background-color: gray;
+    color: white;
+    width: 32%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+
+#s2 {
+	background-color: gray;
+	color: white;
+	width: 32%;
+	border: 1px solid black;
+    float: left;
+    margin-left:  10px;
+    padding: 15px;
+}
+
+#s3 {
+	background-color: gray;
+	color: white;
+	width: 32%;
+	border: 1px solid black;
+    float: left;
+	margin-left: 10px;
+	padding: 15px;
+
+}
+
+/***********For Tablet Devices********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+ * {
+ 	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}	
+
+ 
+ div {  
+	background-color: blue;
+  }	
+
+h1 { 
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 70px;
+
+    }
+h2 {
+	color: black;
+	width: 40%;
+	height: 40%;
+	border: 1px solid black;
+	text-align: center;  }
+    
+
+#h2_1 {
+	background-color: #A00BC8;
+	position: relative;
+			
+			top: -16px;
+			left: 64%;
+
+		}
+
+#h2_2 {
+	background-color: red;
+	position: relative;
+			
+			top: -16px;
+			left: 64%;
+    } 
+
+#h2_3 {
+	        background-color: blue;
+	        position: relative;
+			width: 20%;
+			top: -16px;
+			left: 81.7%;
+		} 
+
+          
+	 
+
+#s1 {
+    
+    background-color: gray;
+    color: white;
+	width: 47%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+
+#s2 {
+	background-color: gray;
+	color: white;
+	width: 47%;
+	border: 1px solid black;
+    float: left;
+    margin-left:  10px;
+    padding: 15px;
+}
+
+#s3 {
+	background-color: gray;
+	color: white;
+	width: 95%;
+	border: 1px solid black;
+	margin-right: 34px;
+	margin-top: 15px;
+	float: right;
+	padding: 15px;
+	}
+
+}
+
+/********For Mobile********/
+@media (max-width: 767px){
+
+  * {
+  	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}	
+
+
+div {
+	background-color: #00ffff;
+}	
+h1 {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+
+h2 {
+	
+	color: black;
+	width: 40%;
+	height: 40%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+#h2_1 {
+	background-color: #A00BC8;
+	position: relative;
+			/*These are called offsets*/
+			top: -16px;
+			left: 62.4%;
+
+		}
+
+#h2_2 {
+	background-color: red;
+	position: relative;
+			/*These are called offsets*/
+			top: -16px;
+			left: 62.4%;
+    } 
+
+#h2_3 {
+	background-color: blue;
+	position: relative;
+			/*These are called offsets*/
+			top: -16px;
+			left: 62.4%;
+		}
+
+
+
+#s1 {
+width: 95%;
+background-color: gray;
+color: white;
+border: 1px solid black;
+padding: 15px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+
+#s2 {
+width: 95%;
+background-color: gray;
+color: white;
+border: 1px solid black;
+padding: 15px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 15px;
+
+}
+
+#s3 {
+width: 95%;
+background-color: gray;
+color: white;
+border: 1px solid black;
+padding: 15px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+}
